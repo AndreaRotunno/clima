@@ -16,6 +16,7 @@
 		9273387F297EE108001EA325 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92733871297EE108001EA325 /* Main.storyboard */; };
 		92733880297EE108001EA325 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92733873297EE108001EA325 /* AppDelegate.swift */; };
 		92733882297EE108001EA325 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92733878297EE108001EA325 /* SceneDelegate.swift */; };
+		92F4E4A9297FF27100F5B656 /* WeatherModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92F4E4A8297FF27100F5B656 /* WeatherModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		92733877297EE108001EA325 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		92733878297EE108001EA325 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		92F4E4A7297FE97100F5B656 /* Clima.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Clima.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		92F4E4A8297FF27100F5B656 /* WeatherModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +73,7 @@
 			children = (
 				9273386D297EE108001EA325 /* WeatherData.swift */,
 				9273386E297EE108001EA325 /* WeatherManager.swift */,
+				92F4E4A8297FF27100F5B656 /* WeatherModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -169,6 +172,7 @@
 				92733880297EE108001EA325 /* AppDelegate.swift in Sources */,
 				9273387D297EE108001EA325 /* WeatherManager.swift in Sources */,
 				9273387C297EE108001EA325 /* WeatherData.swift in Sources */,
+				92F4E4A9297FF27100F5B656 /* WeatherModel.swift in Sources */,
 				9273387A297EE108001EA325 /* WeatherViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
